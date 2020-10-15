@@ -9,7 +9,7 @@ public class ConnectionBd {
         Connection conn = null;
         try {
             Class.forName("org.sqlite.JDBC");
-            String url = "jdbc:sqlite:itemsDB.db?foreign_keys=on;";
+            String url = "jdbc:sqlite:itemsCP.db?foreign_keys=on;";
             conn = DriverManager.getConnection(url);
             System.out.println("Are you connected\n");
         } catch (ClassNotFoundException | SQLException e) {

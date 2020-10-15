@@ -1,7 +1,8 @@
 import data.ItemsData;
 import items.Items;
-
 import java.util.Scanner;
+
+//java -classpath ".;sqlite-jdbc-3.30.1.jar" Main
 
 public class Main {
     public static void main(String[] args) {
